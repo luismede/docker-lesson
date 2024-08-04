@@ -8,5 +8,6 @@ dayjs.extend(timezone);
 dayjs.tz.setDefault("America/Sao_Paulo");
 
 const now = dayjs.tz();
+console.log(now)
 console.log(now['$d']);
 console.log(now['$x']);
