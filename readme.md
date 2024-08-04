@@ -7,7 +7,7 @@ Docker is an open source platform that makes it easy to create and manage enviro
 - `docker ps`: List all containers;
 - `docker start id`: Run container;
 - `docker stop id`: Stoped container;
-- `docker run --name x y`: new container, pulling the image if needed and starting the container;
+- `docker run --name x`: new container, pulling the image if needed and starting the container;
 `-d`: Run in background;
 
 ## Docker with API dayjs
